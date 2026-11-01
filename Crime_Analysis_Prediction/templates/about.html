@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <style>
+      body {
+  background: linear-gradient(180deg, #FF9933 0%, #FFFFFF 50%, #138808 100%);
+  background-size: cover;
+  height: 100vh;
+  margin: 50px 0 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  background-attachment: fixed;
+  color: #333; /* add text color */
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px; /* increase font size */
+  margin-top: 30px;
+  text-transform: uppercase; /* capitalize text */
+}
+
+p {
+  font-size: 24px; /* increase font size */
+  line-height: 1.5; /* add line-height */
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+  transform: translateX(-50%);
+}
+
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-size: 20px; /* increase font size */
+ }
+
+a:hover {
+  color: #555;
+}
+    </style>
+</head>
+<body>
+    
+  <h1>About</h1>
+  <ul>
+    
+    <li><a href="{% url 'home' %}">Crime Prediction</a></li>
+    <li><a href="{% url 'crime_analysis' %}" >Crime Analysis</a></li>
+    <li><a href="{% url 'spatial_data_analysis' %}">Spatial Data Analysis</a></li>
+    <li><a href="{% url 'create_line_chart' %}">Total Crimes Analysis</a></li>
+    
+  </ul>
+  
+  <p>The Project Aims at analysing Crime prediction of Indian states, it uses machine learning techniques to predict crime trends. The Crime Prediction is done on various types of crimes, such as Murder, Kidnapping, Rape, Theft, &amp; Cheating. The Data is Collected from the NCRB website of the Govt of India. Once the data is collected, it is analysed using machine learning algorithms to identify patterns and trends in the data that can help predict future crime rates.</p>
+  <p>The project also includes a simple line graph analysis of the crime data for each state, Spatial Data Analysis is also done with hot spot mapping of Indian Map based on Total Crimes in Each state in the year 2021. Analysis of Total Crimes for Years 2000-2021 of the country is also shown in Total Crime Analysis. By analysing crime data and predicting trends, this project can help law enforcement agencies and policymakers make informed decisions about crime prevention and public safety.</p>
+  <p>*The Prediction is only available for years 2022-2025<br>*All Data may not be accurate</p>
+
+  <p>The Spatial Data Analysis map is created using <a href="https://iipmaps.com/" target="_blank" class="external-link">iipmaps.com</a><br>Source of data: <a href="http://ncrb.gov.in/" target="_blank" class="external-link">ncrb.gov.in</a> </p>
+ 
+
+</body>
+</html>

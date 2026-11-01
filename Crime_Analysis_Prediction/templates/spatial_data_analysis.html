@@ -1,0 +1,39 @@
+<style>
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+    .header {
+  background: linear-gradient(180deg, #FF9933 0%, #FFFFFF 50%, #138808 100%);
+  background-size: cover;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header a {
+  color: #000;
+  text-decoration: none;
+  margin: 0 20px;
+  display: inline-block;
+}
+
+</style>
+
+<div class="header">
+    <h1>Spatial Data Analysis</h1>
+    <a href="{% url 'home' %}">Crime Prediction</a>
+    <a href="{% url 'crime_analysis' %}">Crime Analysis</a>
+    <a href="{% url 'create_line_chart' %}">Total Crimes Analysis</a>
+    <a href="{% url 'about' %}">About</a>
+    
+</div>
+
+<div class="image-container">
+    <img src="/static/images/image1.jpg" alt="Image">
+    
+</div>

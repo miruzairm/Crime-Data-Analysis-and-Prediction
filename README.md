@@ -79,7 +79,10 @@ http://127.0.0.1:8000/
 ```
 
 ## Important Note on Figures and Statistics
-This project is developed for educational, academic, and demonstration purposes only. The predictions, charts, and output values should not be treated as official government or institutional statistics. They are based on sample/project data and model estimations, and may not reflect real-world official crime figures.
+This project is developed for educational, academic, and demonstration purposes only. The dataset used in this project is based on information collected from official NCRB sources, but it should still be verified against the latest official NCRB data available for the relevant years, because the project dataset may not contain exact figures for every year or reporting category covered by the official publication. The charts, predictions, and analysis in this project should not be treated as official government or institutional statistics.
+
+## Prediction Disclaimer
+The prediction output in this project is intended only for academic learning and demonstration. It is not a formal forecasting model for real-world policy, law enforcement planning, or official reporting. Crime prediction can change significantly depending on new laws, enforcement strategies, reporting practices, administrative decisions, social factors, and changes in data collection methods. Any prediction should therefore be treated as an educational estimate only.
 
 ## Disclaimer
-The project is intended for learning, experimentation, and academic demonstration. It should not be used for official reporting, legal decisions, or public policy claims without valid and verified official data sources.
+This project is intended for learning, experimentation, and academic demonstration. It should not be used for official reporting, legal decisions, public policy claims, or administrative conclusions without validation against official NCRB publications and verified source data.

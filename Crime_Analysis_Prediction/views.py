@@ -12,7 +12,8 @@ from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
 from django.template import loader
 
-DATA_FILE = Path(r"F:\College\Khalsa College\Training\Minor Project\Minor Project\Minor Project\Data\States Data 2001-2021.xlsx")
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_FILE = BASE_DIR / "Data" / "States Data 2001-2021.xlsx"
 
 # Load data
 data = pd.read_excel(DATA_FILE)
